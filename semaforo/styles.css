@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    
+}
+
+#semaforo{
+    width: 250px;
+    height: 550px;
+    background-color: black;
+    margin: 20px auto 0 auto;
+    border-radius: 80px;
+    border: 3px solid rgb(134, 129, 129);
+    box-shadow: 0px 0px 50px black;
+}
+
+#vermelho{
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(101, 98, 98);
+    background-color: rgba(255, 0, 0, 0.300);
+}
+
+#amarelo{
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(101, 98, 98);
+    background-color: rgba(255, 255, 0, 0.300);
+}
+
+#verde{
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(101, 98, 98);
+    background-color: rgba(172, 255, 47, 0.300);
+}
+
+#botoes{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons{
+    width: 80px;
+    height: 25px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(186, 198, 208);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(137, 137, 255);
+}
+
+.buttons:hover{
+    background-color: rgb(161, 199, 231);
+    box-shadow: 2px 2px 10px rgb(105, 105, 254);
+    transition: 1000ms;
+}
